@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -247,6 +248,7 @@ general style  ends
 
 /* common-properties-for-colomns section */
 
+
 /*  Section One style*/
 .section-one {
   background-color: #fafafa;
@@ -294,6 +296,7 @@ general style  ends
   padding: 65px 20px;
 }
 
+
 /*macBook coloumn section starts
 ----------------------------------*/
 /* colomn-one */
@@ -317,3 +320,4 @@ general style  ends
 /*-----------------------------
 macBook coloumn section ends
 --------------------------------*/
+
