@@ -6,6 +6,27 @@ body {
   color: #333;
 }
 
+/* -----------------------------
+general style  starts
+--------------------------------*/
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*------------------------------
+general style  ends
+-------------------------------*/
+
+/*-----------------------------
+
 /* Header Section */
 .apple-header {
   background-color: rgba(0, 0, 0, 0.8);
@@ -28,6 +49,75 @@ body {
   padding: 0;
   margin: 0 auto;
   align-items: center;
+}
+/* common properties */
+
+.common-background-image-Properties {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 580px;
+}
+
+.center-commun-div {
+  text-align: center;
+}
+.center-commun-div div {
+  padding-top: 3px;
+}
+
+.two-links {
+  display: flex;
+  justify-content: center;
+}
+.two-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  list-style: none;
+  padding-top: 15px;
+}
+
+.two-links ul a {
+  text-decoration: none;
+  color: #06c;
+  font-size: 1.2em;
+  padding-left: 35px;
+}
+.two-links ul a:hover {
+  color: inherit;
+}
+/* including icons using font-awsesome  */
+.two-links ul a::after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+/*including icons using font-awesome  */
+
+.model-text {
+  font-size: 1.3em;
+}
+.title {
+  font-size: 4em;
+  font-weight: bolder;
+}
+.discrption {
+  font-size: 2em;
+  font-weight: 300px;
+}
+
+.price {
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #a5a2a5;
+}
+
+.text-top-pading-div {
+  padding-top: 50px;
 }
 
 .apple-logo {
@@ -142,3 +232,88 @@ body {
   display: inline-block;
   vertical-align: top;
 }
+
+/* common-properties-for-colomns section */
+
+.common-width-col {
+  width: 49%;
+  margin: 9px;
+}
+
+.two-columns-row {
+  display: flex;
+  /* align-items: center; */
+}
+
+/* common-properties-for-colomns section */
+
+/*  Section One style*/
+.section-one {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 25px 0;
+}
+.links-container ul {
+  list-style: none;
+}
+.model p {
+  font-size: 15px;
+  font-weight: 200;
+}
+.text-description p {
+  font-size: large;
+}
+.links-container ul li {
+  display: inline-block;
+}
+.links-container ul li a {
+  /* color: #0e69cd; */
+  text-decoration: none;
+}
+
+/*  Section Two style*/
+.section-two {
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #fff;
+}
+
+/*  Section Three style*/
+.section-three {
+  background-image: url("../images/home/iphone11-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+}
+
+/*macBook coloumn section starts
+----------------------------------*/
+/* colomn-one */
+.Macbook-pro-wrapper {
+  background-image: url("../images/home/macbook-pro.jpg");
+  background-size: initial;
+  background-color: #fafafa;
+  background-position: bottom;
+}
+
+/* colomn two */
+.the-new-ipad-wrapper {
+  background-image: url("../images/home/new-ipad.jpg");
+}
+
+.like-a-computer {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+/*-----------------------------
+macBook coloumn section ends
+--------------------------------*/
