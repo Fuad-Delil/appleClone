@@ -1,4 +1,12 @@
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #333;
+}
+
 /* -----------------------------
 general style  starts
 --------------------------------*/
@@ -20,8 +28,29 @@ general style  ends
 
 /*-----------------------------
 
+/* Header Section */
+.apple-header {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+}
 
+.apple-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
 
+.apple-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  padding: 0;
+  margin: 0 auto;
+  align-items: center;
+}
 /* common properties */
 
 .common-background-image-Properties {
@@ -92,10 +121,118 @@ general style  ends
   padding-top: 50px;
 }
 
-/* common properties */
+.apple-logo {
+  width: 30px;
+  height: 30px;
+}
 
-/*--------------------------------
+.apple-nav-list li a {
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 200px;
+  text-decoration: none;
+  opacity: 0.8;
+}
 
+.apple-nav-list li :hover {
+  opacity: 1;
+}
+
+/*  Footer Styling  */
+.Apple-footer-section {
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+  font-size: 0.65em;
+}
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  color: #86868b;
+  padding: 17px 0 20px;
+}
+.upper-text-container a {
+  text-decoration: none;
+  color: #515154;
+}
+.upper-text-container a:hover {
+  text-decoration: underline;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.Apple-footer-section ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.Apple-footer-section ul li {
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.Apple-footer-section ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.Apple-footer-section ul li {
+  padding: 5px 0;
+  font-size: 0.9em;
+}
+.footer-links a {
+  color: #515154;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.footer-links h3 {
+  font-size: 12px;
+  font-weight: 500 px;
+  transform: translate(37.5px);
+}
+.my-apple {
+  border-bottom: 1px solid #d2d2d7;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.copyright-all {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 20px;
+}
+.footer-links-terms ul li {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #ccc;
+}
+.footer-links-terms ul li:last-child {
+  border-right: 0px;
+}
+.footer-links-terms ul li a {
+  text-decoration: none;
+  color: #515154;
+}
+.footer-links-terms ul li a:hover {
+  text-decoration: underline;
+}
+.footer-country {
+  display: inline-block;
+}
+.flag {
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-country-name {
+  display: inline-block;
+  vertical-align: top;
+}
 
 /* common-properties-for-colomns section */
 
