@@ -91,8 +91,6 @@ general style  ends
   padding-top: 50px;
 }
 
-
-
 /* common properties */
 
 /*--------------------------------
@@ -105,21 +103,61 @@ general style  ends
   margin: 9px;
 }
 
-
-
 .two-columns-row {
   display: flex;
   /* align-items: center; */
 }
 
-
 /* common-properties-for-colomns section */
 
+/*  Section One style*/
+.section-one {
+  background-color: #fafafa;
+  text-align: center;
+  padding: 25px 0;
+}
+.links-container ul {
+  list-style: none;
+}
+.model p {
+  font-size: 15px;
+  font-weight: 200;
+}
+.text-description p {
+  font-size: large;
+}
+.links-container ul li {
+  display: inline-block;
+}
+.links-container ul li a {
+  /* color: #0e69cd; */
+  text-decoration: none;
+}
 
+/*  Section Two style*/
+.section-two {
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #fff;
+}
 
+/*  Section Three style*/
+.section-three {
+  background-image: url("../images/home/iphone11-bg.jpg");
+  height: 580px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+}
 
-
-macBook coloumn section starts
+/*macBook coloumn section starts
 ----------------------------------*/
 /* colomn-one */
 .Macbook-pro-wrapper {
@@ -142,9 +180,3 @@ macBook coloumn section starts
 /*-----------------------------
 macBook coloumn section ends
 --------------------------------*/
-
-
-
-
-
-
