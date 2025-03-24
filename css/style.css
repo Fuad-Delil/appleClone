@@ -98,6 +98,9 @@ general style  ends
 }
 
 /*including icons using font-awesome  */
+.sixteen-inch-padding{
+  padding-top: 50px;
+}
 
 .model-text {
   font-size: 1.3em;
@@ -342,7 +345,7 @@ macBook coloumn section ends
   padding-top: 54px;
 }
 .fourth-heghlight-wrapper .left-side-wrapper {
-  background-image: url("./images/home/watch-series-5.jpg");
+  background-image: url("../images/home/watch-series-5.jpg");
 }
 .right-side-wrapper {
   height: 580px;
@@ -355,7 +358,7 @@ macBook coloumn section ends
   padding-top: 54px;
 }
 .fourth-heghlight-wrapper .right-side-wrapper {
-  background-image: url("../Project/images/home/apple-card.jpg");
+  background-image: url("../images/home/apple-card.jpg");
 }
 .description-wraper {
   max-width: 430px;
@@ -371,10 +374,10 @@ macBook coloumn section ends
   background: #fff;
 }
 .fifth-heghlight-wrapper .left-side-wrapper {
-  background-image: url("images/home/apple-tv-background.jpg");
+  background-image: url("../images/home/apple-tv-background.jpg");
 }
 .fifth-heghlight-wrapper .right-side-wrapper {
-  background-image: url("images/home/air-pods.jpg");
+  background-image: url("../images/home/air-pods.jpg");
   color: #fff;
   background-size: initial;
   background-color: #000;
